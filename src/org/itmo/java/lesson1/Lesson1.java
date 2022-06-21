@@ -47,6 +47,7 @@ public class Lesson1 {
             System.out.println("Нечетное");
         }
 
+        System.out.println("Heloooo");
 
 //    byte b = 100;
 //    short s = 123;

@@ -9,16 +9,13 @@ public class Lesson1 {
                 "знаю" + System.lineSeparator() + "Java." ;
         System.out.println(iknowjava);
 
-
         double fc = (46 + 10) * (10 / 3.0);
         int sc = (29) * (4) * (-15);
         System.out.println("fc = " + fc + "; sc = " +sc);
 
-
         int number = 10500;
         double result = ((double)number/10)/10;
         System.out.println(result);
-
 
         float fa = 3.6f;
         float fb = 4.1f;

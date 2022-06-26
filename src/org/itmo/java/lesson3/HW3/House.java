@@ -2,14 +2,14 @@ package org.itmo.java.lesson3.HW3;
 import java.util.Calendar;
 
 public class House {
-    private Integer layers;
+    private Short layers;
     private Integer buildYear;
     private String title;
 
     public House() {
     }
 
-    public void setAll(Integer layers, Integer buildYear, String title) {
+    public void setAll(Short layers, Integer buildYear, String title) {
         this.layers = layers;
         this.buildYear = buildYear;
         this.title = title;

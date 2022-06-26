@@ -19,10 +19,10 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "Car(" +
                 "color='" + color + '\'' +
                 ", name='" + name + '\'' +
                 ", weight=" + weight +
-                '}';
+                ')';
     }
 }

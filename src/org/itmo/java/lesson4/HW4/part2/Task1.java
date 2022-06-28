@@ -1,6 +1,6 @@
-package org.itmo.java.lesson4.HW4;
+package org.itmo.java.lesson4.HW4.part2;
 
-public class Part2Task1CheckSort {
+public class Task1 {
     public static void main(String[] args) {
         int[] arr1 = {0, 15, 1, 4, 6, 2, -17};
         int[] arr2 = {0, 1, 2, 3, 4};

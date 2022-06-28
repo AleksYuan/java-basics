@@ -1,8 +1,8 @@
-package org.itmo.java.lesson4.HW4;
+package org.itmo.java.lesson4.HW4.part1;
 
 import java.util.Arrays;
 
-public class Task5ArrayCheck {
+public class Task5 {
     public static void main(String[] args) {
 
         Integer arr1[] = {2, 15, 2, 1, 6, 2, -17} ;

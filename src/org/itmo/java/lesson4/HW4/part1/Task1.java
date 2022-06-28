@@ -1,6 +1,6 @@
-package org.itmo.java.lesson4.HW4;
+package org.itmo.java.lesson4.HW4.part1;
 
-public class Task1OddNumbers {
+public class Task1 {
     public static void main (String[] args) {
         for (int i = 0; i < 100; i++) {
             if (i%2 != 0) {

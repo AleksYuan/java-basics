@@ -1,6 +1,6 @@
-package org.itmo.java.lesson4.HW4;
+package org.itmo.java.lesson4.HW4.part1;
 
-public class Task2DivisionThreeFive {
+public class Task2 {
     public static void main(String[] args) {
         String three = "Делится на 3: ";
         String five = "Делится на 5: ";
@@ -11,9 +11,12 @@ public class Task2DivisionThreeFive {
             }
             if (i % 3 == 0) {
                 three += i + ", ";
-            } else if (i % 5 == 0) {
+            }
+
+            if (i % 5 == 0) {
                 five += i + ", ";
             }
+
         }
         System.out.println(three.substring(0, three.length() - 2));
         System.out.println(five.substring(0, five.length() - 2));

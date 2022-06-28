@@ -1,8 +1,8 @@
-package org.itmo.java.lesson4.HW4;
+package org.itmo.java.lesson4.HW4.part1;
 
 import java.util.Scanner;
 
-public class Task4SecondBelowFirst {
+public class Task4 {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
         System.out.print("Введите первое число: ");

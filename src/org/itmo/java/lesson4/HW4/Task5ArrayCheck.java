@@ -10,9 +10,9 @@ public class Task5ArrayCheck {
             System.out.println("array = " +
                     Arrays.deepToString(arr1).replace("]","").replace("[", ""));
             if (arr1[0] == 3 || arr1[arr1.length-1] == 3) {
-                System.out.println("true");
+                System.out.println(true);
             } else {
-                System.out.println("false");
+                System.out.println(false);
             }
         }
     }

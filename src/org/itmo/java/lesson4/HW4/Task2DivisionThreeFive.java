@@ -8,7 +8,8 @@ public class Task2DivisionThreeFive {
         for (int i = 1; i < 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 threeAndFive += i + ", ";
-            } else if (i % 3 == 0) {
+            }
+            if (i % 3 == 0) {
                 three += i + ", ";
             } else if (i % 5 == 0) {
                 five += i + ", ";

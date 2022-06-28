@@ -7,11 +7,11 @@ public class Task2DivisionThreeFive {
         String threeAndFive = "Делится на 3 и на 5: ";
         for (int i = 1; i < 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-                threeAndFive += Integer.toString(i) + ", ";
+                threeAndFive += i + ", ";
             } else if (i % 3 == 0) {
-                three += Integer.toString(i) + ", ";
+                three += i + ", ";
             } else if (i % 5 == 0) {
-                five += Integer.toString(i) + ", ";
+                five += i + ", ";
             }
         }
         System.out.println(three.substring(0, three.length() - 2));

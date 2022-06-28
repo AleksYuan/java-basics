@@ -13,8 +13,7 @@ public class Part2Task1CheckSort {
         String a = "OK";
         if (array.length > 1) {
             for (int i = 0; i < array.length - 1; i++) {
-                if (array[i] < array[i + 1]) {
-                } else {
+                if (array[i] >= array[i + 1]) {
                     a = "Please, try again";
                     break;
                 }

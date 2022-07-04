@@ -7,7 +7,7 @@ public abstract class User {
     Scanner in = new Scanner(System.in);
     public abstract void setName();
 
-    public User() {
+    protected User() {
     }
 
     public void setName(String name) {

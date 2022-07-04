@@ -10,7 +10,9 @@ public class BlockOfFlat extends Flat{
         this.fullArea = fullArea;
     }
 
-    public void setSomeVariable() {
-        System.out.println(someVariable);
+
+    @Override
+    public Integer getSomeVariable() {
+        return super.getSomeVariable();
     }
 }

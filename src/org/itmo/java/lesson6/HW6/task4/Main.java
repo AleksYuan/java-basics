@@ -4,5 +4,6 @@ public class Main {
     public static void  main(String[] args) {
         BlockOfFlat blockOfFlat = new BlockOfFlat(100,(short)10,(short)10, (byte)3, 300);
         blockOfFlat.setSomeVariable();
+        System.out.println(blockOfFlat.getSomeVariable());
     }
 }

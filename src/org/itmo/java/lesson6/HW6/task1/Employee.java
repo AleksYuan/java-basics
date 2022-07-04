@@ -1,7 +1,7 @@
 package org.itmo.java.lesson6.HW6.task1;
 
 public class Employee extends Human {
-    public String titleBank;
+    private String titleBank;
 
     public Employee(String name, String female) {
         super(name, female);
@@ -13,5 +13,10 @@ public class Employee extends Human {
         return allInfo.append(this.name).append(" ").append(this.female).toString();
     }
 
+
+    @Override
+    public void printAllData() {
+        System.out.println("Employee: " + this.name + " " + this.female);
+    }
 
 }

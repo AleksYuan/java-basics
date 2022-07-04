@@ -12,4 +12,10 @@ public class Client extends Human{
         StringBuilder allInfo = new StringBuilder();
         return allInfo.append(this.name).append(" ").append(this.female).toString();
     }
+
+    @Override
+    public void printAllData() {
+        System.out.println("client: " + this.name + " " + this.female);
+    }
+
 }

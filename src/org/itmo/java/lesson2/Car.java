@@ -9,6 +9,9 @@ public class Car {
     private double engineCapasity;
     private boolean isNew;
 
+    public Car() {
+    }
+
     public Car(String brand, String model, Color color, boolean isNew) {
         this.brand = brand;
         this.model = model;

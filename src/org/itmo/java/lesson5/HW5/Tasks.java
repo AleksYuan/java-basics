@@ -5,10 +5,10 @@ public class Tasks {
         String ns = "Привет, бякАкак твои дела, БЯКа так давнJJJо не RвиделJись бяка, Бяка MMM БЯка ";
         String pw = "Шалаш";
         String rs = "This is Russia really";
-//        System.out.println(lengthOfLine(ns));
-//        System.out.println(polindromWord(pw));
-//        System.out.println(changeByaka(ns));
-//        System.out.println(countStrToStr(ns, "бяка"));
+        System.out.println(lengthOfLine(ns));
+        System.out.println(polindromWord(pw));
+        System.out.println(changeByaka(ns));
+        System.out.println(countStrToStr(ns, "бяка"));
         System.out.println(changeByakaAll(ns, "бяка", "[нецензурная брань]"));
         System.out.println(reverseWordsInStrBuilder(rs));
 
@@ -46,8 +46,8 @@ public class Tasks {
     }
 
     private static String changeByakaAll(String text, String oldStr, String newStr) {
-        final int strLength = text.length();
-        final int oldStrLength = oldStr.length();
+        int strLength = text.length();
+        int oldStrLength = oldStr.length();
         StringBuilder builder = new StringBuilder(text.toLowerCase());
         StringBuilder builder2 = new StringBuilder(text);
 
@@ -60,8 +60,8 @@ public class Tasks {
                 }
                 return builder2.toString();
             }
-            builder = builder.replace(index, index + oldStrLength, newStr);
-            builder2 = builder2.replace(index, index + oldStrLength, newStr);
+            builder.replace(index, index + oldStrLength, newStr);
+            builder2.replace(index, index + oldStrLength, newStr);
 
         }
         return builder2.toString();

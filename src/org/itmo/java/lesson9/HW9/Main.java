@@ -51,8 +51,9 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         String find = scan.nextLine();
-        System.out.println("Количество очков юзера " + find + ": " + serviceUser.get(find));
+        System.out.println("Количество очков юзера " + find  + ": " + serviceUser.get(find));
     }
+
 
 }
 

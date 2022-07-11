@@ -1,6 +1,7 @@
 package org.itmo.java.lesson9.HW9.Task3.repository.db;
 
 import org.itmo.java.lesson9.HW9.Task3.repository.GameRepository;
+
 import java.util.Scanner;
 
 import java.util.HashMap;
@@ -31,7 +32,6 @@ public class GameRepositoryData implements GameRepository {
         System.out.println("база данных загружена успешно");
         System.out.println(dataBase);
     }
-
 
     @Override
     public Integer findBy(String key) {

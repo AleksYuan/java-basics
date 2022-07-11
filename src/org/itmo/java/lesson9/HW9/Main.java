@@ -11,8 +11,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 
-
-
 public class Main {
     public static void main(String[] args) {
 //        Задание 1
@@ -27,7 +25,6 @@ public class Main {
 
         System.out.println(list2);
         System.out.println(Task1.setMethod(list2));
-
 
 
 //        Задание 2
@@ -58,7 +55,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         String find = scan.nextLine();
-        System.out.println("Количество очков юзера " + find  + ": " + serviceUser.get(find));
+        System.out.println("Количество очков юзера " + find + ": " + serviceUser.get(find));
     }
 }
 

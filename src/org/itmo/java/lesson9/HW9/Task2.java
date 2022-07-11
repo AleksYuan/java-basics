@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Task2 {
 
-    public static Long getTime(List<Object> list, Integer iter) {
+    public static Long getTime(List<Integer> list, Integer iter) {
         long start = System.currentTimeMillis();
 
         for (int i = 0; i < iter; i++) {

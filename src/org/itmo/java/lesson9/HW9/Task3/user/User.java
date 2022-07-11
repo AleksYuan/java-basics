@@ -25,4 +25,11 @@ public class User {
         this.points = points;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", points=" + points +
+                '}';
+    }
 }

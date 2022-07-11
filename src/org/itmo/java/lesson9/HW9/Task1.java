@@ -5,7 +5,7 @@ import java.util.*;
 public class Task1 {
 
 //    Наполняем коллекцию рондомами
-    public static List<Object> addDataRandom(List<Object> list, Integer count) {
+    public static List addDataRandom(List list, Integer count) {
         for (int i = 0; i < count; i++) {
             list.add((int) (i * Math.random() * 5));
         }
@@ -13,7 +13,7 @@ public class Task1 {
     }
 
 //    наполняем коллекцию упорядоченным списком
-    public static List<Object> addDataToRepeat(List<Object> list ,Integer count, Integer repeat) {
+    public static List addDataToRepeat(List list ,Integer count, Integer repeat) {
         for (int i = 0; i < count; i++) {
             for (int j = 0; j < repeat; j++) {
                 list.add(j);
@@ -23,7 +23,7 @@ public class Task1 {
     }
 
 //    сетуем и переносим (можно вывести коллекцию, можно переоформить в лист. Смотря что нужно на выходе
-    public static List<Object> setMethod(List<Object> list) {
+    public static List setMethod(List list) {
         Set<Object> set = new TreeSet<>();
         for (Object obj : list) {
             set.add(obj);

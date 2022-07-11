@@ -28,7 +28,7 @@ public class GameRepositoryData implements GameRepository {
     @Override
     public void downloadData(Map<String, Integer> dataNew) {
         this.dataBase = dataNew;
-        System.out.println("база данных загроужена успешно");
+        System.out.println("база данных загружена успешно");
         System.out.println(dataBase);
     }
 

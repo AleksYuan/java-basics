@@ -3,19 +3,26 @@ package org.itmo.java.lesson9.HW9;
 import org.itmo.java.lesson9.HW9.Task3.service.ServiceUser;
 import org.itmo.java.lesson9.HW9.Task3.service.impl.ServiceImpl;
 
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Scanner;
+
+
 
 
 public class Main {
     public static void main(String[] args) {
 //        Задание 1
-        List<Object> list = new ArrayList<>();
+        List list = new ArrayList<>();
         Task1.addDataRandom(list, 40);
 
         System.out.println(list);
         System.out.println(Task1.setMethod(list));
 
-        List<Object> list2 = new ArrayList<>();
+        List list2 = new ArrayList<>();
         Task1.addDataToRepeat(list2, 3, 10);
 
         System.out.println(list2);
@@ -24,11 +31,11 @@ public class Main {
 
 
 //        Задание 2
-        List<Object> list21 = new ArrayList<>(1000000);
+        List list21 = new ArrayList<>(1000000);
         Task1.addDataRandom(list21, 1000000);
         System.out.println(Task2.getTime(list21, 100000));
 
-        List<Object> list22 = new LinkedList<>(list21);
+        List list22 = new LinkedList<>(list21);
         System.out.println(Task2.getTime(list22, 1000)); // конечно можно цифру и поменьше поставить
 
 //        Задание 3
@@ -53,7 +60,5 @@ public class Main {
         String find = scan.nextLine();
         System.out.println("Количество очков юзера " + find  + ": " + serviceUser.get(find));
     }
-
-
 }
 

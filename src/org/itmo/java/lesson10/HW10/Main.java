@@ -1,7 +1,6 @@
 package org.itmo.java.lesson10.HW10;
 
 
-import org.itmo.java.lesson10.Service;
 import org.itmo.java.lesson10.service.ServiseText;
 
 import java.io.FileNotFoundException;

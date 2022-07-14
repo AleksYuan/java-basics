@@ -12,8 +12,8 @@ public class Main {
 
         service.readText(text);
 
-        Text text2 = service.create("files/task2.txt");
-        Text text3 = service.create("files/task2-3");
+        Text text2 = new Text ("files/task2.txt");
+        Text text3 = new Text ("files/task2-3");
         service.addText(text, text2, false);
         service.addText(text, text3, false);
         service.addText(text, text3, true);
